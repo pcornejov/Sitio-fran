@@ -51,6 +51,7 @@
     mobileMenu.classList.add('is-open');
     mobileMenu.removeAttribute('hidden');
     hamburger.setAttribute('aria-expanded', 'true');
+    hamburger.setAttribute('aria-label', 'Cerrar menú');
     body.classList.add('menu-open');
 
     var focusables = getFocusableMenuItems();
@@ -68,6 +69,7 @@
 
     mobileMenu.classList.remove('is-open');
     hamburger.setAttribute('aria-expanded', 'false');
+    hamburger.setAttribute('aria-label', 'Abrir menú');
     body.classList.remove('menu-open');
 
     document.removeEventListener('keydown', onKeydown);

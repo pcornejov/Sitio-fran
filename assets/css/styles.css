@@ -294,7 +294,7 @@ select:focus-visible,
 
 .eyebrow--on-navy {
   color: var(--color-accent);
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 /* =========================================================
@@ -808,11 +808,25 @@ body.menu-open {
   color: var(--color-accent);
 }
 
+.footer-col ul li a {
+  padding-block: 4px;
+}
+
 .footer-contact-item {
   display: flex;
   align-items: flex-start;
   gap: var(--space-sm);
   margin-bottom: var(--space-sm);
+}
+
+.contact-card__item > div,
+.footer-contact-item > div {
+  min-width: 0;
+}
+
+.contact-card__item-value,
+.footer-contact-item a {
+  overflow-wrap: anywhere;
 }
 
 .footer-contact-item svg {
