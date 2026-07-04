@@ -4,21 +4,249 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Francisca Espinoza | Contabilidad, Tributación y Administración de Personal</title>
-  <meta name="description" content="Servicios contables, tributarios y de administración de personal en San Carlos, Ñuble, Chile.">
+  <meta name="description" content="Servicios contables, tributarios y de administración de personal en San Carlos, Región de Ñuble, Chile. Asesoría cercana y confiable para tu empresa o negocio.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <header>
-    <p>Francisca Espinoza — Contabilidad · Tributación · Administración de Personal</p>
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="wordmark">Francisca <span>Espinoza</span></a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul class="main-nav__list">
+          <li><a class="main-nav__link" href="index.html" aria-current="page">Inicio</a></li>
+          <li><a class="main-nav__link" href="servicios.html">Servicios</a></li>
+          <li><a class="main-nav__link" href="sobre-mi.html">Sobre mí</a></li>
+          <li><a class="main-nav__link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <a href="contacto.html" class="btn btn--primary site-header__cta">Solicitar asesoría</a>
+        <button type="button" class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>
+        </button>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <h1>Sitio en construcción</h1>
-    <p>Estamos preparando este espacio para mostrarte nuestros servicios contables, tributarios y de administración de personal.</p>
-    <p>Contáctanos: <a href="https://wa.me/56989334354">WhatsApp +56 9 8933 4354</a> · <a href="mailto:Francisca.arriagada.coa@gmail.com">Francisca.arriagada.coa@gmail.com</a></p>
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <div class="mobile-menu__header container">
+      <a href="index.html" class="wordmark">Francisca <span>Espinoza</span></a>
+      <button type="button" class="hamburger mobile-menu__close" aria-label="Cerrar menú">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>
+      </button>
+    </div>
+    <ul class="mobile-menu__list">
+      <li><a class="mobile-menu__link" href="index.html" aria-current="page">Inicio</a></li>
+      <li><a class="mobile-menu__link" href="servicios.html">Servicios</a></li>
+      <li><a class="mobile-menu__link" href="sobre-mi.html">Sobre mí</a></li>
+      <li><a class="mobile-menu__link" href="contacto.html">Contacto</a></li>
+    </ul>
+    <div class="mobile-menu__cta">
+      <a href="contacto.html" class="btn btn--primary">Solicitar asesoría</a>
+      <a href="https://wa.me/56989334354" class="btn btn--on-navy" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Zm5.6 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.7-.8-3.1-1.2-5-4.3-5.2-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.7.9 2.3 1 2.5.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.6.6-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.1.8-.1.2-.2.9-1 1.1-1.4.2-.4.5-.3.8-.2.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.2.1.9-.1 1.6Z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- ===== HERO ===== -->
+    <section class="section">
+      <div class="container hero">
+        <div class="hero__text">
+          <span class="eyebrow">Contabilidad · Tributario · Personal</span>
+          <h1>Orden contable y tributario para que tu negocio crezca tranquilo</h1>
+          <p class="hero__subtitle">Asesoría contable, tributaria y de administración de personal en San Carlos, Región de Ñuble. Trabajo cercano, claro y a tiempo, para que te concentres en tu negocio.</p>
+          <div class="btn-row">
+            <a href="contacto.html" class="btn btn--primary">Solicitar asesoría</a>
+            <a href="https://wa.me/56989334354" class="btn btn--whatsapp" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Zm5.6 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.7-.8-3.1-1.2-5-4.3-5.2-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.7.9 2.3 1 2.5.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.6.6-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.1.8-.1.2-.2.9-1 1.1-1.4.2-.4.5-.3.8-.2.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.2.1.9-.1 1.6Z"/></svg>
+              Escríbenos
+            </a>
+          </div>
+        </div>
+        <div class="hero__media" role="img" aria-label="Ilustración representativa de asesoría contable">
+          <span>Francisca Espinoza</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FRANJA DE VALORES ===== -->
+    <section class="section section-bg-alt">
+      <div class="container">
+        <div class="values-strip">
+          <div class="value-item">
+            <div class="value-item__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6l8-4Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <div>
+              <p class="value-item__title">Confianza y confidencialidad</p>
+              <p class="value-item__desc">Tu información financiera se maneja con total reserva.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="value-item__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            </div>
+            <div>
+              <p class="value-item__title">Plazos al día</p>
+              <p class="value-item__desc">Declaraciones y trámites presentados dentro de plazo.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="value-item__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21c-4-3-8-6-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 5-4 8-8 11Z"/></svg>
+            </div>
+            <div>
+              <p class="value-item__title">Atención cercana</p>
+              <p class="value-item__desc">Respuesta directa y en lenguaje simple, sin tecnicismos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GRILLA DE SERVICIOS ===== -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <span class="eyebrow">Qué hacemos</span>
+          <h2>Servicios pensados para tu tranquilidad</h2>
+          <p class="lead">Contabilidad, tributación y administración de personal en un solo lugar.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="7" x2="16" y2="7"/><line x1="8" y1="11" x2="10" y2="11"/><line x1="8" y1="15" x2="10" y2="15"/><line x1="14" y1="11" x2="16" y2="11"/><line x1="14" y1="15" x2="16" y2="15"/></svg>
+            </div>
+            <h3 class="service-card__title">Contabilidad</h3>
+            <p class="service-card__desc">Registro contable, estados financieros y libros al día para tu empresa o negocio.</p>
+            <a href="servicios.html#contabilidad" class="service-card__link">Ver más
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="7" r="2.5"/><circle cx="17" cy="17" r="2.5"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+            </div>
+            <h3 class="service-card__title">Tributario</h3>
+            <p class="service-card__desc">Declaraciones de impuestos, planificación tributaria y representación ante el SII.</p>
+            <a href="servicios.html#tributario" class="service-card__link">Ver más
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="service-card__title">Administración de Personal</h3>
+            <p class="service-card__desc">Contratos, remuneraciones y cumplimiento laboral para tu equipo de trabajo.</p>
+            <a href="servicios.html#personal" class="service-card__link">Ver más
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE MÍ (preview) ===== -->
+    <section class="section section-bg-alt">
+      <div class="container about-preview">
+        <div class="about-preview__media" role="img" aria-label="Retrato de Francisca Espinoza">
+          <span>Francisca Espinoza</span>
+        </div>
+        <div class="about-preview__body">
+          <span class="eyebrow">Sobre mí</span>
+          <h2>Cercanía y experiencia contable en un mismo lugar</h2>
+          <p>Con años de trabajo en contabilidad y tributación, ayudo a emprendedores y empresas de San Carlos y la Región de Ñuble a mantener sus finanzas en orden y sus obligaciones al día.</p>
+          <p>Mi enfoque combina rigor técnico con un trato humano: te explico cada trámite en palabras simples, sin dejarte solo frente al SII.</p>
+          <div class="mt-lg">
+            <a href="sobre-mi.html" class="btn btn--secondary">Conocer más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BANDA CTA ===== -->
+    <section class="cta-band">
+      <div class="cta-band__content">
+        <h2 class="cta-band__title">¿Lista o listo para ordenar tu contabilidad?</h2>
+        <p class="cta-band__subtitle">Conversemos sin compromiso sobre lo que tu negocio necesita.</p>
+        <div class="btn-row">
+          <a href="contacto.html" class="btn btn--primary">Solicitar asesoría</a>
+          <a href="https://wa.me/56989334354" class="btn btn--on-navy" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Zm5.6 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.7-.8-3.1-1.2-5-4.3-5.2-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.7.9 2.3 1 2.5.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.6.6-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.1.8-.1.2-.2.9-1 1.1-1.4.2-.4.5-.3.8-.2.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.2.1.9-.1 1.6Z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>San Carlos, Región de Ñuble, Chile</p>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <p class="footer-col__wordmark">Francisca <span style="color: var(--color-accent);">Espinoza</span></p>
+        <p>Contabilidad, tributación y administración de personal en San Carlos, Región de Ñuble.</p>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col__title">Navegación</p>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col__title">Contacto</p>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Zm5.6 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.7-.8-3.1-1.2-5-4.3-5.2-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.7.9 2.3 1 2.5.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.6.6-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.1.8-.1.2-.2.9-1 1.1-1.4.2-.4.5-.3.8-.2.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.2.1.9-.1 1.6Z"/></svg>
+          <a href="https://wa.me/56989334354" target="_blank" rel="noopener">+56 9 8933 4354</a>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z" opacity="0"/><path d="m3 6 9 6 9-6"/><rect x="3" y="4" width="18" height="16" rx="2"/></svg>
+          <a href="mailto:Francisca.arriagada.coa@gmail.com">Francisca.arriagada.coa@gmail.com</a>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.5 7-11.5a7 7 0 0 0-14 0C5 14.5 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          <span>San Carlos, Región de Ñuble, Chile</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col__title">Horario</p>
+        <p>Lunes a viernes<br>9:00 – 18:00</p>
+        <div class="mt-lg">
+          <a href="contacto.html" class="btn btn--on-navy btn--sm">Solicitar asesoría</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Francisca Espinoza. Todos los derechos reservados.</p>
+    </div>
   </footer>
+
+  <a href="https://wa.me/56989334354" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Zm5.6 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.7-.8-3.1-1.2-5-4.3-5.2-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.7.9 2.3 1 2.5.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.6.6-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.1.8-.1.2-.2.9-1 1.1-1.4.2-.4.5-.3.8-.2.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.2.1.9-.1 1.6Z"/></svg>
+  </a>
+
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>
