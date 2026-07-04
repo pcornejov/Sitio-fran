@@ -371,7 +371,7 @@ select:focus-visible,
   border-bottom-color: var(--color-accent);
 }
 
-.site-header__cta {
+.btn.site-header__cta {
   display: none;
 }
 
@@ -386,7 +386,7 @@ select:focus-visible,
     gap: var(--space-lg);
   }
 
-  .site-header__cta {
+  .btn.site-header__cta {
     display: inline-flex;
   }
 
