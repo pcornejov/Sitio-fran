@@ -51,29 +51,29 @@ input, textarea, select {
 /* ===== DESIGN TOKENS ===== */
 :root {
   /* ===== COLOR — Marca ===== */
-  --color-primary: #0F3B5C;        /* Navy — header, footer, nav, texto sobre claro */
-  --color-primary-hover: #0B2C46;  /* Navy oscurecido ~15% — hover de botones/enlaces navy */
-  --color-primary-active: #081F33; /* Navy oscurecido ~25% — estado presionado */
-  --color-primary-tint-10: #E7EEF3; /* Navy al 10% opacidad sobre blanco — fondos de íconos, chips */
-  --color-primary-tint-05: #F1F5F8; /* Navy al 5% — hover sutil de filas/list items */
+  --color-primary: #2B2730;        /* Grafito — header, footer, nav, texto sobre claro */
+  --color-primary-hover: #201D25;  /* Grafito oscurecido — hover de botones/enlaces */
+  --color-primary-active: #17151A; /* Grafito oscurecido — estado presionado */
+  --color-primary-tint-10: #F4E1E5; /* Rosa empolvado al 10% — fondos de íconos, chips */
+  --color-primary-tint-05: #F9EDEF; /* Rosa empolvado al 5% — hover sutil de filas/list items */
 
-  --color-accent: #E0A458;         /* Ámbar — CTA primario */
-  --color-accent-hover: #D69C55;   /* Ámbar oscurecido ~5% (NO más oscuro, ver §2) */
-  --color-accent-active: #D69C55;  /* Mismo tono que hover; el estado activo se marca con
+  --color-accent: #E0A0AE;         /* Rosa empolvado — CTA primario (Rosa Ejecutivo) */
+  --color-accent-hover: #B5677A;   /* Vino — hover del botón primario */
+  --color-accent-active: #B5677A;  /* Mismo tono que hover; el estado activo se marca con
                                        transform + inset-shadow, no con más oscurecimiento
                                        (oscurecer más rompe el contraste AA, ver §2) */
-  --color-accent-tint: #FBF0E1;    /* Ámbar al 10% — fondos de badges, resaltes suaves */
+  --color-accent-tint: #F7E5E9;    /* Rosa empolvado al 10% — fondos de badges, resaltes suaves */
 
   --color-whatsapp: #25D366;       /* Verde oficial — SOLO ícono/isotipo de WhatsApp */
   --color-whatsapp-hover: #1FB955; /* Verde oscurecido — hover del ícono/FAB */
 
   /* ===== COLOR — Neutros / texto ===== */
-  --color-bg: #F7F9FB;             /* Fondo general del sitio */
+  --color-bg: #F9F6F7;             /* Fondo general del sitio */
   --color-surface: #FFFFFF;        /* Fondo de tarjetas, header en scroll-top si aplica, inputs */
-  --color-text-primary: #1F2933;   /* Texto de cuerpo sobre fondos claros */
-  --color-text-secondary: #52606D; /* Texto secundario/meta sobre fondos claros */
-  --color-text-inverse: #FFFFFF;   /* Texto sobre navy (header, footer, CTA band) */
-  --color-text-on-accent: #0F3B5C; /* Texto sobre botones ámbar (obligatorio, NO blanco) */
+  --color-text-primary: #221F23;   /* Texto de cuerpo sobre fondos claros */
+  --color-text-secondary: #635A5E; /* Texto secundario/meta sobre fondos claros */
+  --color-text-inverse: #FFFFFF;   /* Texto sobre grafito (header, footer, CTA band) */
+  --color-text-on-accent: #221F23; /* Texto sobre botones rosa (obligatorio, NO blanco) */
   --color-border: #DCE3E9;         /* Bordes de inputs, divisores sobre superficies claras */
   --color-border-dark: rgba(255,255,255,0.15); /* Divisores sobre fondo navy (footer) */
 
@@ -120,10 +120,10 @@ input, textarea, select {
   --radius-pill: 999px;
 
   /* ===== SOMBRAS ===== */
-  --shadow-sm: 0 1px 2px rgba(15, 59, 92, 0.06);
-  --shadow-md: 0 4px 12px rgba(15, 59, 92, 0.08);
-  --shadow-lg: 0 12px 32px rgba(15, 59, 92, 0.14);
-  --shadow-focus: 0 0 0 3px rgba(224, 164, 88, 0.45);
+  --shadow-sm: 0 1px 2px rgba(43, 39, 48, 0.06);
+  --shadow-md: 0 4px 12px rgba(43, 39, 48, 0.08);
+  --shadow-lg: 0 12px 32px rgba(43, 39, 48, 0.14);
+  --shadow-focus: 0 0 0 3px rgba(224, 160, 174, 0.45);
   --shadow-focus-inverse: 0 0 0 3px rgba(255, 255, 255, 0.55);
 
   /* ===== LAYOUT ===== */
@@ -541,7 +541,7 @@ body.menu-open {
 .btn--primary:active {
   background-color: var(--color-accent-active);
   transform: scale(0.98);
-  box-shadow: inset 0 2px 6px rgba(15, 59, 92, 0.25);
+  box-shadow: inset 0 2px 6px rgba(43, 39, 48, 0.25);
 }
 
 /* Secundario sobre fondo claro */
