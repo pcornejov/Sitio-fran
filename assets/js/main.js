@@ -1,5 +1,5 @@
 /**
- * Francisca Espinoza — Sitio web
+ * Francisca Arriagada — Sitio web
  * Comportamiento del header (scroll) y menú móvil (hamburguesa).
  * Vanilla JS, sin dependencias.
  */

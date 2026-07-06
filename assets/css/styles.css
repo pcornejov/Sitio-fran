@@ -1,5 +1,5 @@
 /* =========================================================
-   Francisca Espinoza — Sistema visual (Iteración 2)
+   Francisca Arriagada — Sistema visual (Iteración 2)
    Contabilidad · Tributación · Administración de Personal
    ========================================================= */
 
@@ -731,23 +731,11 @@ body.menu-open {
   grid-template-columns: 1fr;
   gap: var(--space-lg);
 }
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .services-grid > :last-child:nth-child(3) {
-    grid-column: 1 / -1;
-    max-width: calc(50% - (var(--space-lg) / 2));
-    margin-inline: auto;
-  }
+@media (min-width: 768px) {
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
 }
-
 @media (min-width: 1024px) {
-  .services-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  .services-grid { grid-template-columns: repeat(4, 1fr); }
 }
 
 /* =========================================================
