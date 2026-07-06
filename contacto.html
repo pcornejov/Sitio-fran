@@ -109,8 +109,48 @@
           </div>
 
           <div class="form-field">
-            <label for="mensaje">Mensaje <span class="required">*</span></label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
+            <span class="form-field__label-standalone">Tipo de persona / régimen</span>
+            <div class="radio-group" role="radiogroup" aria-label="Tipo de persona o régimen">
+              <div class="radio-option">
+                <input type="radio" id="tipo-persona-natural" name="tipo-persona" value="persona-natural" class="radio-option__input">
+                <label for="tipo-persona-natural" class="radio-option__label">Persona Natural</label>
+              </div>
+              <div class="radio-option">
+                <input type="radio" id="tipo-persona-empresa" name="tipo-persona" value="empresa" class="radio-option__input">
+                <label for="tipo-persona-empresa" class="radio-option__label">Empresa</label>
+              </div>
+              <div class="radio-option">
+                <input type="radio" id="tipo-persona-emprendimiento" name="tipo-persona" value="emprendimiento-formalizacion" class="radio-option__input">
+                <label for="tipo-persona-emprendimiento" class="radio-option__label">Emprendimiento en vías de formalización</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <span class="form-field__label-standalone">Volumen de facturación mensual aproximado</span>
+            <div class="radio-group" role="radiogroup" aria-label="Volumen de facturación mensual aproximado">
+              <div class="radio-option">
+                <input type="radio" id="volumen-sin-movimiento" name="volumen-facturacion" value="sin-movimiento" class="radio-option__input">
+                <label for="volumen-sin-movimiento" class="radio-option__label">Sin movimiento aún</label>
+              </div>
+              <div class="radio-option">
+                <input type="radio" id="volumen-menos-5m" name="volumen-facturacion" value="menos-5m" class="radio-option__input">
+                <label for="volumen-menos-5m" class="radio-option__label">Menos de $5M</label>
+              </div>
+              <div class="radio-option">
+                <input type="radio" id="volumen-5m-20m" name="volumen-facturacion" value="5m-20m" class="radio-option__input">
+                <label for="volumen-5m-20m" class="radio-option__label">Entre $5M y $20M</label>
+              </div>
+              <div class="radio-option">
+                <input type="radio" id="volumen-mas-20m" name="volumen-facturacion" value="mas-20m" class="radio-option__input">
+                <label for="volumen-mas-20m" class="radio-option__label">Más de $20M</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="mensaje">Cuéntanos un poco más sobre tu situación <span class="required">*</span></label>
+            <textarea id="mensaje" name="mensaje" required placeholder="Cuéntame en qué etapa está tu negocio o tu situación tributaria, y en qué te gustaría que te ayude."></textarea>
           </div>
 
           <button type="submit" class="btn btn--primary">Enviar mensaje</button>
