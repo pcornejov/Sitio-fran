@@ -390,7 +390,7 @@ select:focus-visible,
     display: inline-flex;
   }
 
-  .hamburger {
+  .site-header__actions .hamburger {
     display: none;
   }
 }
